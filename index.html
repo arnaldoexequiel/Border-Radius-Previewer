@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,22 @@
     <link href="style.css" rel="stylesheet">
     <title>Border-Radius Previewer</title>
 </head>
+
 <body>
-    <header id="header">
+    <header id="main-header">
         <h1>Border-Radius Previewer</h1>
     </header>
-    <div id="box">
-        <h2>This is a box</h2>
+    <div class="container">
+        <div class="column btn-group">
+            <button type="button">top-left</button>
+            <button type="button">top-right</button>
+            <button type="button">bottom-left</button>
+            <button type="button">bottom-right</button>
+        </div>
+            <div class="column box">
+                <h2>This is a box</h2>
+            </div>
     </div>
-    <form>
-        <button type="button">top-left</button>
-        <button type="button">top-right</button>
-        <button type="button">bottom-left</button>
-        <button type="button">bottom-right</button>
-    </form>
 </body>
+
 </html>
